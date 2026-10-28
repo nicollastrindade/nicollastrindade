@@ -1,44 +1,77 @@
-<h1 align="center">Olá, sou Nicollas Trindade, ou apenas Trindade 👋</h1>
+<!-- CABEÇALHO -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:06B6D4&height=220&section=header&text=Nicollas%20Trindade&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Desenvolvedor%20Web%20em%20forma%C3%A7%C3%A3o&descSize=18&descAlignY=60" />
+</p>
+
+<!-- TEXTO DIGITANDO -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=520&lines=Olá%2C+pode+me+chamar+de+Trindade+👋;Transformando+ideias+em+código+✨;Front-end+%7C+Back-end+%7C+Banco+de+dados;Em+busca+do+primeiro+estágio+🚀" />
+</p>
 
 <p align="center">
-  Desenvolvedor web em formação.
+  <img src="https://img.shields.io/badge/ETEC-Cidade%20Tiradentes-6D28D9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Inform%C3%A1tica%20para%20Internet-06B6D4?style=for-the-badge" />
 </p>
 
 ---
 
-## 👨‍💻 Sobre mim
+## ✨ Sobre mim
+
+> *"Código bonito é aquele que funciona e que alguém consegue entender."*
 
 - 🎓 Cursando **Informática para Internet** na **ETEC Cidade Tiradentes**
-- 🔭 Atualmente trabalhando em: [Civvo](https://github.com/nicollastrindade/civvo) - meu trabalho de conclusão de curso
+- 🔭 Atualmente trabalhando no **Civvo**, meu trabalho de conclusão de curso
+- 🚀 Objetivo: conseguir meu primeiro estágio como desenvolvedor web
+- 💬 Pergunte-me sobre: React, Node.js e front-end
+
+---
 
 ## 🛠️ Tecnologias
 
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,mysql,git,github&theme=dark" />
 </p>
+
+<details>
+<summary><b>Ver por área</b></summary>
+<br>
+
+| Área | Tecnologias |
+|------|-------------|
+| 🎨 Front-end | HTML, CSS, JavaScript, TypeScript, React |
+| ⚙️ Back-end | Node.js |
+| 🗄️ Banco de dados | SQL |
+| 🧰 Ferramentas | Git, GitHub |
+
+</details>
+
+---
 
 ## 📊 Estatísticas
 
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nicollastrindade&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicollastrindade&layout=compact&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nicollastrindade&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicollastrindade&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nicollastrindade&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=06B6D4&point=FFFFFF" />
+</p>
+
+---
 
 ## 📫 Contato
 
-<p>
+<p align="center">
   <a href="mailto:nicollast69@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://instagram.com/tr_nickk">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
+</p>
+
+<!-- RODAPÉ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:06B6D4&height=120&section=footer" />
 </p>
