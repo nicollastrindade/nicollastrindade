@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <filter id="ink" x="-15%" y="-30%" width="130%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="26"/>
+    </filter>
+    <filter id="splat" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="300" fill="#0d0d0d"/>
+
+  <!-- mancha vermelha de fundo -->
+  <g filter="url(#ink)">
+    <ellipse cx="500" cy="152" rx="360" ry="105" fill="#b91c1c" transform="rotate(-3 500 152)"/>
+    <ellipse cx="170" cy="70" rx="90" ry="45" fill="#dc2626" transform="rotate(20 170 70)"/>
+    <ellipse cx="860" cy="240" rx="110" ry="42" fill="#dc2626" transform="rotate(-15 860 240)"/>
+  </g>
+
+  <!-- mancha preta por cima -->
+  <g filter="url(#ink)">
+    <ellipse cx="500" cy="150" rx="335" ry="88" fill="#000" transform="rotate(-3 500 150)"/>
+    <ellipse cx="175" cy="72" rx="70" ry="32" fill="#000" transform="rotate(20 175 72)"/>
+    <ellipse cx="860" cy="238" rx="90" ry="30" fill="#000" transform="rotate(-15 860 238)"/>
+  </g>
+
+  <!-- respingos -->
+  <g filter="url(#splat)">
+    <circle cx="90" cy="215" r="14" fill="#dc2626"/>
+    <circle cx="125" cy="245" r="6" fill="#b91c1c"/>
+    <circle cx="60" cy="150" r="8" fill="#000" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="930" cy="70" r="16" fill="#dc2626"/>
+    <circle cx="900" cy="105" r="7" fill="#b91c1c"/>
+    <circle cx="965" cy="140" r="9" fill="#000" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="330" cy="38" r="9" fill="#dc2626"/>
+    <circle cx="640" cy="262" r="11" fill="#dc2626"/>
+    <circle cx="700" cy="40" r="6" fill="#b91c1c"/>
+    <circle cx="410" cy="272" r="7" fill="#b91c1c"/>
+  </g>
+
+  <!-- pingos escorrendo -->
+  <g fill="#dc2626">
+    <rect x="260" y="0" width="7" height="48" rx="3.5"/>
+    <circle cx="263.5" cy="52" r="6"/>
+    <rect x="590" y="0" width="9" height="34" rx="4.5"/>
+    <circle cx="594.5" cy="38" r="7"/>
+    <rect x="800" y="0" width="6" height="58" rx="3"/>
+    <circle cx="803" cy="62" r="5"/>
+  </g>
+
+  <!-- título -->
+  <text x="504" y="156" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="62" letter-spacing="4" fill="#dc2626">NICOLLAS TRINDADE</text>
+  <text x="500" y="152" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="62" letter-spacing="4" fill="#f5f5f5">NICOLLAS TRINDADE</text>
+  <text x="500" y="192" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" letter-spacing="5" fill="#ef4444">DESENVOLVEDOR WEB EM FORMAÇÃO</text>
+</svg>
