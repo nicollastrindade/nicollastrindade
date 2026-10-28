@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Inform%C3%A1tica%20para%20Internet-0D0D0D?style=for-the-badge&labelColor=0D0D0D" />
 </p>
 
----
+<img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/divider.svg?v=1" width="100%" alt="" />
 
 ## 🩸 Sobre mim
 
@@ -17,7 +17,7 @@
 - 🎓 Cursando **Informática para Internet** na **ETEC Cidade Tiradentes**
 - 🔭 Atualmente trabalhando no **Civvo**, meu trabalho de conclusão de curso
 
----
+<img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/divider.svg?v=1" width="100%" alt="" />
 
 ## 🖤 Tecnologias
 
@@ -38,7 +38,7 @@
 
 </details>
 
----
+<img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/divider.svg?v=1" width="100%" alt="" />
 
 ## 🔴 Estatísticas
 
@@ -47,7 +47,7 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicollastrindade&layout=compact&hide_border=false&bg_color=0D0D0D&border_color=DC2626&title_color=DC2626&text_color=E5E5E5" />
 </p>
 
----
+<img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/divider.svg?v=1" width="100%" alt="" />
 
 ## 📫 Contato
 
@@ -64,4 +64,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/footer.svg?v=2" alt="" width="100%" />
 </p>
-
