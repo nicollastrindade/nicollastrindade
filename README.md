@@ -5,7 +5,7 @@
 
 <!-- TEXTO DIGITANDO -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=520&lines=Olá%2C+pode+me+chamar+de+Trindade+👋;Transformando+ideias+em+código+✨;Front-end+%7C+Back-end+%7C+Banco+de+dados;Em+busca+do+primeiro+estágio+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=520&lines=Ol%C3%A1%2C+pode+me+chamar+de+Trindade;Transformando+ideias+em+c%C3%B3digo;Front-end+%7C+Back-end+%7C+Banco+de+dados;Em+busca+do+primeiro+est%C3%A1gio" />
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nicollastrindade&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=06B6D4&point=FFFFFF" />
+  <img src="https://ghchart.rshah.org/6D28D9/nicollastrindade" alt="Contribuições de Nicollas" />
 </p>
 
 ---
