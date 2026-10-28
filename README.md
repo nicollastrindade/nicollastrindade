@@ -31,3 +31,14 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=nicollastrindade&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicollastrindade&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
+
+## 📫 Contato
+
+<p>
+  <a href="mailto:nicollast69@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/tr_nickk">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
