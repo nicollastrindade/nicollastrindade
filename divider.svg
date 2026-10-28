@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="1000" height="80">
+  <defs>
+    <linearGradient id="lava" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <filter id="goo" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="80">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 24 -10"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="80" fill="#0d0d0d"/>
+  <g filter="url(#goo)" fill="url(#lava)">
+    <ellipse cx="500" cy="92" rx="580" ry="22"/>
+    <ellipse cx="500" cy="-12" rx="580" ry="18"/>
+    <circle cx="120" cy="80" r="14">
+      <animate attributeName="cy" values="80;8;80" dur="7s" begin="-2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="300" cy="80" r="18">
+      <animate attributeName="cy" values="80;10;80" dur="9s" begin="-5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="500" cy="80" r="12">
+      <animate attributeName="cy" values="80;14;80" dur="6s" begin="-1s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="700" cy="80" r="16">
+      <animate attributeName="cy" values="80;8;80" dur="8s" begin="-4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="880" cy="80" r="13">
+      <animate attributeName="cy" values="80;12;80" dur="7.5s" begin="-3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+  </g>
+</svg>
