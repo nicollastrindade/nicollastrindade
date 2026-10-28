@@ -16,8 +16,6 @@
 
 - 🎓 Cursando **Informática para Internet** na **ETEC Cidade Tiradentes**
 - 🔭 Atualmente trabalhando no **Civvo**, meu trabalho de conclusão de curso
-- 🚀 Objetivo: conseguir meu primeiro estágio como desenvolvedor web
-- 💬 Pergunte-me sobre: React, Node.js e front-end
 
 ---
 
