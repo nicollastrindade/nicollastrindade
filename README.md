@@ -1,7 +1,7 @@
-<h1 align="center">Olá, eu sou o Nicollas Trindade 👋</h1>
+<h1 align="center">Olá, sou Nicollas Trindade, ou apenas Trindade 👋</h1>
 
 <p align="center">
-  Desenvolvedor web em formação, apaixonado por criar interfaces bonitas e APIs que funcionam.
+  Desenvolvedor web em formação.
 </p>
 
 ---
@@ -9,10 +9,7 @@
 ## 👨‍💻 Sobre mim
 
 - 🎓 Cursando **Informática para Internet** na **ETEC Cidade Tiradentes**
-- 🔭 Atualmente trabalhando em: *(nome do seu projeto atual)*
-- 🌱 Aprendendo: *(ex.: testes automatizados, Next.js, Docker)*
-- 🚀 Objetivo: conseguir meu primeiro estágio como desenvolvedor
-- 💬 Pergunte-me sobre: React, Node.js e front-end
+- 🔭 Atualmente trabalhando em: [Civvo](https://github.com/nicollastrindade/civvo) - meu trabalho de conclusão de curso
 
 ## 🛠️ Tecnologias
 
