@@ -11,8 +11,6 @@
     </filter>
   </defs>
 
-  <rect width="1000" height="300" fill="#0d0d0d"/>
-
   <g filter="url(#goo)" fill="url(#lava)">
     <!-- poças -->
     <ellipse cx="500" cy="318" rx="580" ry="42"/>
