@@ -1,57 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
   <defs>
-    <filter id="ink" x="-15%" y="-30%" width="130%" height="160%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="7" result="n"/>
-      <feDisplacementMap in="SourceGraphic" in2="n" scale="26"/>
-    </filter>
-    <filter id="splat" x="-50%" y="-50%" width="200%" height="200%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="3" result="n"/>
-      <feDisplacementMap in="SourceGraphic" in2="n" scale="10"/>
+    <linearGradient id="lava" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="0.5" stop-color="#dc2626"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <filter id="goo" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="300">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="11" result="blur"/>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 24 -10"/>
     </filter>
   </defs>
 
   <rect width="1000" height="300" fill="#0d0d0d"/>
 
-  <!-- mancha vermelha de fundo -->
-  <g filter="url(#ink)">
-    <ellipse cx="500" cy="152" rx="360" ry="105" fill="#b91c1c" transform="rotate(-3 500 152)"/>
-    <ellipse cx="170" cy="70" rx="90" ry="45" fill="#dc2626" transform="rotate(20 170 70)"/>
-    <ellipse cx="860" cy="240" rx="110" ry="42" fill="#dc2626" transform="rotate(-15 860 240)"/>
+  <g filter="url(#goo)" fill="url(#lava)">
+    <!-- poças -->
+    <ellipse cx="500" cy="318" rx="580" ry="42"/>
+    <ellipse cx="500" cy="-18" rx="580" ry="34"/>
+
+    <!-- bolhas -->
+    <circle cx="120" cy="290" r="34">
+      <animate attributeName="cy" values="290;40;290" dur="11s" begin="-3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="250" cy="290" r="22">
+      <animate attributeName="cy" values="290;30;290" dur="8s" begin="-6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="380" cy="290" r="40">
+      <animate attributeName="cy" values="290;50;290" dur="13s" begin="-8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      <animate attributeName="cx" values="380;430;380" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="290" r="28">
+      <animate attributeName="cy" values="290;35;290" dur="9s" begin="-1s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="620" cy="290" r="36">
+      <animate attributeName="cy" values="290;45;290" dur="12s" begin="-9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      <animate attributeName="cx" values="620;570;620" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="290" r="20">
+      <animate attributeName="cy" values="290;25;290" dur="7s" begin="-2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="870" cy="290" r="32">
+      <animate attributeName="cy" values="290;40;290" dur="10s" begin="-5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="180" cy="290" r="18">
+      <animate attributeName="cy" values="290;20;290" dur="6s" begin="-4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="560" cy="290" r="16">
+      <animate attributeName="cy" values="290;60;290" dur="6.5s" begin="-2.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle cx="940" cy="290" r="24">
+      <animate attributeName="cy" values="290;35;290" dur="9.5s" begin="-7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      <animate attributeName="cx" values="940;900;940" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="290" r="26">
+      <animate attributeName="cy" values="290;55;290" dur="10.5s" begin="-1.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
   </g>
 
-  <!-- mancha preta por cima -->
-  <g filter="url(#ink)">
-    <ellipse cx="500" cy="150" rx="335" ry="88" fill="#000" transform="rotate(-3 500 150)"/>
-    <ellipse cx="175" cy="72" rx="70" ry="32" fill="#000" transform="rotate(20 175 72)"/>
-    <ellipse cx="860" cy="238" rx="90" ry="30" fill="#000" transform="rotate(-15 860 238)"/>
-  </g>
-
-  <!-- respingos -->
-  <g filter="url(#splat)">
-    <circle cx="90" cy="215" r="14" fill="#dc2626"/>
-    <circle cx="125" cy="245" r="6" fill="#b91c1c"/>
-    <circle cx="60" cy="150" r="8" fill="#000" stroke="#dc2626" stroke-width="2"/>
-    <circle cx="930" cy="70" r="16" fill="#dc2626"/>
-    <circle cx="900" cy="105" r="7" fill="#b91c1c"/>
-    <circle cx="965" cy="140" r="9" fill="#000" stroke="#dc2626" stroke-width="2"/>
-    <circle cx="330" cy="38" r="9" fill="#dc2626"/>
-    <circle cx="640" cy="262" r="11" fill="#dc2626"/>
-    <circle cx="700" cy="40" r="6" fill="#b91c1c"/>
-    <circle cx="410" cy="272" r="7" fill="#b91c1c"/>
-  </g>
-
-  <!-- pingos escorrendo -->
-  <g fill="#dc2626">
-    <rect x="260" y="0" width="7" height="48" rx="3.5"/>
-    <circle cx="263.5" cy="52" r="6"/>
-    <rect x="590" y="0" width="9" height="34" rx="4.5"/>
-    <circle cx="594.5" cy="38" r="7"/>
-    <rect x="800" y="0" width="6" height="58" rx="3"/>
-    <circle cx="803" cy="62" r="5"/>
-  </g>
-
-  <!-- título -->
-  <text x="504" y="156" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="62" letter-spacing="4" fill="#dc2626">NICOLLAS TRINDADE</text>
-  <text x="500" y="152" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="62" letter-spacing="4" fill="#f5f5f5">NICOLLAS TRINDADE</text>
-  <text x="500" y="192" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" letter-spacing="5" fill="#ef4444">DESENVOLVEDOR WEB EM FORMAÇÃO</text>
+  <!-- texto (fora do filtro) -->
+  <text x="500" y="150" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="60" letter-spacing="4" fill="#ffffff" stroke="#0d0d0d" stroke-width="7" paint-order="stroke">NICOLLAS TRINDADE</text>
+  <text x="500" y="190" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" letter-spacing="5" fill="#ffffff" stroke="#0d0d0d" stroke-width="5" paint-order="stroke">DESENVOLVEDOR WEB EM FORMAÇÃO</text>
 </svg>
