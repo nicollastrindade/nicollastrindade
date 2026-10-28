@@ -1,6 +1,6 @@
 <!-- CABEÇALHO -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/banner.svg" alt="Nicollas Trindade" width="100%" />
+  <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/banner.svg?v=2" alt="Nicollas Trindade" width="100%" />
 </p>
 
 <p align="center">
@@ -64,6 +64,6 @@
 
 <!-- RODAPÉ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/footer.svg" alt="" width="100%" />
+  <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/footer.svg?v=2" alt="" width="100%" />
 </p>
 
