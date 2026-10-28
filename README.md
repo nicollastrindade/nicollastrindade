@@ -66,3 +66,4 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nicollastrindade/nicollastrindade/main/footer.svg" alt="" width="100%" />
 </p>
+
